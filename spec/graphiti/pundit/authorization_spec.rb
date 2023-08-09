@@ -4,7 +4,6 @@ require "spec_helper"
 
 RSpec.describe Graphiti::Pundit::Authorization do
   include_context "resource testing"
-  x = ""
 
   let(:resource) { PersonResource }
   let(:action_name) { :index }
